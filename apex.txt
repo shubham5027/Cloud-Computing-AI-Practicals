@@ -1,0 +1,84 @@
+public class ArithmeticOperations {
+    // Method to add two numbers
+    public static Integer addNumbers(Integer num1, Integer num2) {
+        return num1 + num2;
+    }
+    
+    // Method to subtract two numbers
+    public static Integer subtractNumbers(Integer num1, Integer num2) {
+        return num1 - num2;
+    }
+    
+    // Method to multiply two numbers
+    public static Integer multiplyNumbers(Integer num1, Integer num2) {
+        return num1 * num2;
+    }
+    
+    // Method to divide two numbers
+    public static Double divideNumbers(Integer num1, Integer num2) {
+        if(num2 == 0) {
+            System.debug('Error: Division by zero');
+            return null;
+        }
+        return (Double)num1 / num2;
+    }
+    
+    // Main method to demonstrate arithmetic operations with variables
+    public static void main() {
+        // Define variables for numbers
+        Integer number1 = 10;
+        Integer number2 = 5;
+        
+        // Perform addition using the addNumbers method
+        Integer sum = addNumbers(number1, number2);
+        
+        // Perform subtraction using the subtractNumbers method
+        Integer difference = subtractNumbers(number1, number2);
+        
+        // Perform multiplication using the multiplyNumbers method
+        Integer product = multiplyNumbers(number1, number2);
+        
+        // Perform division using the divideNumbers method
+        Double quotient = divideNumbers(number1, number2);
+        
+        // Print the results
+        System.debug('The sum of ' + number1 + ' and ' + number2 + ' is: ' + sum);
+        System.debug('The difference of ' + number1 + ' and ' + number2 + ' is: ' + difference);
+        System.debug('The product of ' + number1 + ' and ' + number2 + ' is: ' + product);
+        System.debug('The quotient of ' + number1 + ' divided by ' + number2 + ' is: ' + quotient);
+    }
+}
+
+
+running code  (in apex debug box)
+public class ArithmeticOperations {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Apex is used primarily for extending the functionality of the Salesforce platform. Here are several reasons why organizations use Apex:
+
+Custom Business Logic: Salesforce provides a robust set of standard functionalities, but every organization has unique business requirements. Apex allows developers to implement custom business logic tailored to specific needs, such as complex validation rules, automated workflows, and sophisticated calculations.
+Integration with External Systems: Many organizations use Salesforce as a central hub for managing customer data and interactions. Apex facilitates seamless integration with external systems, such as ERP (Enterprise Resource Planning) systems, marketing automation platforms, and custom databases, by enabling developers to write code to exchange data and trigger actions.
+Custom User Interfaces: While Salesforce provides standard user interfaces for data entry and reporting, organizations often require custom interfaces tailored to their unique workflows and processes. Apex, along with Visualforce pages and Lightning web components, allows developers to create highly customized user interfaces that provide a better user experience and improve productivity.
+Automated Processes: Apex Triggers enable developers to automate processes that occur before or after records are inserted, updated, deleted, or undeleted in Salesforce. This automation helps organizations streamline business processes, enforce data integrity, and maintain consistency across the platform.
+Data Manipulation: Apex provides powerful tools for querying, manipulating, and transforming data within the Salesforce platform. Developers can write Apex code to perform complex data operations, such as data cleansing, data enrichment, and data migration.
+Asynchronous Processing: Salesforce supports asynchronous processing using features like Batch Apex, Scheduled Apex, and Queueable Apex. These features allow developers to perform long-running operations, such as data processing tasks and external API calls, without impacting the performance of the user interface.
+Extensibility: Salesforce is highly customizable, and Apex plays a crucial role in extending its capabilities. Whether it's adding custom fields, objects, or entire applications, Apex allows organizations to tailor Salesforce to their specific needs and industry requirements.
+Security and Compliance: Apex respects Salesforce's security model, including object-level and field-level security. Developers can use Apex to enforce security measures, such as access controls and data encryption, to ensure the confidentiality, integrity, and availability of sensitive information.
+Community Support: The Salesforce developer community is vast and active, providing developers with access to a wealth of resources, including forums, blogs, documentation, and open-source projects. This community support accelerates the learning curve for developers new to Salesforce and helps experienced developers overcome challenges and share best practices.

@@ -1,0 +1,26 @@
+1) Search Salesforce trailhead 
+2) Complete the sign up there 
+3) Search "Lightning Expereince
+Customization" and open it 
+4) Select 3rd option it it as "Create and Customize List views" 
+5)After opening list views scroll downwards and Click on "Launch" Button 
+6) Select ?? "Setup"
+icon and select first option , upwards near the profile top right corner 
+7) Search "App Manger"and open it 
+8) Click on "New Lightning App" located at top right corner 
+9) Fill the details like App
+name e.g StudentLearn, Developer name e.g xyz 
+10) Click on next 11) Add utility item Select
+"Rich Text" and click on next 
+12) In Navigation items Add Accounts, Approval Requests, and
+Oppotunities and click on next 
+13) In User Profiles, search "System Administrator" and add it
+and click on save & finish 
+14) Go to App Launcher Icon on main setup dashboard 
+15) search your app name in app launcher like e.g xyz and select it 
+16) Click on New and fill the required
+details and hit on save button 
+17) click on opportunities and fill the details like opportunity name,
+date and amount e.g 1000 and click on save 
+18) Click on created Opportunity hyperlink is there
+19) Finish
